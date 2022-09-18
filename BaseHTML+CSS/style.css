@@ -1,15 +1,12 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    
-}
 #div1{
-    background: url(https://techmanyata.in/wp-content/uploads/2022/01/html5_logo.png);
-    background-repeat: no-repeat;
-    background-size: 30%;
-    background-position-y: 50px;
-
+    background: 
+        url(https://techmanyata.in/wp-content/uploads/2022/01/html5_logo.png) 0% 0%/27.5% 80% no-repeat fixed,
+        url(https://dailysmarty-production.s3.amazonaws.com/uploads/post/img/523/css-pseudo-after-before.jpg) 100% 0%/27.5% 80% no-repeat fixed;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
 }
+
+
 #title{
     outline-style: solid;
     outline-color: #123412;
@@ -25,4 +22,10 @@ body{
     border-radius: 2rem;
     width: 10%;
     margin: 0 auto;
+}
+#lng{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    background: linear-gradient(orange,red);
 }
