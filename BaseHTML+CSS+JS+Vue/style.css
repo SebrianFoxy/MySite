@@ -107,18 +107,18 @@
 .CardCenterVUE{
     margin-left: 45%;
     margin-top: 5cm;
-    background-color: white;
 }
 .addVUE{
-    margin-left: 41.5%;
+    margin-left: 42%;
     color: white;
     background-color:darkred ;
     border-color: darkred;
-    width: 7%;
+    width: 7.5%;
     border-radius: 2rem;
     font-family:'Courier New', Courier, monospace
 }
 .deleteVUE{
+    margin-top: 30px;
     margin-left: 1%;
     color: white;
     background-color: purple;
@@ -126,4 +126,14 @@
     width: 7%;
     border-radius: 2rem;
     font-family: 'Courier New', Courier, monospace
+}
+.containerVUE{
+    background-color: white;
+    margin-left: 3cm;
+    width: 1200px;
+    height: 130px;
+    border-radius: 2rem;
+}
+#cntVUE{
+    transform: translateX(-15px) translateY(40px);
 }

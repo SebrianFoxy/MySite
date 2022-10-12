@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bodyVUE">
-    <div class="containerVUE">
+    <div class="containerVUE" id="app">
         <div class = "CardCenterVUE">
-            <h1>Count: 0</h1>
+            <h1 id="cntVUE">{{ title }}: {{ Counter }}</h1>
         </div>
-    <button class="addVUE">Добавить</button>
-    <button class="deleteVUE">Вычесть</button>
+    <button class="addVUE" v-on:click="Counter++">Добавить</button>
+    <button class="deleteVUE"v-on:click="Counter--">Вычесть</button>
     </div>
     <script src="https://unpkg.com/vue@next"></script>
     <script src="java.js"></script>
