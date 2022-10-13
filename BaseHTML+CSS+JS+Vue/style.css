@@ -137,3 +137,34 @@
 #cntVUE{
     transform: translateX(-15px) translateY(40px);
 }
+.containerVUE1{
+    margin-bottom: 10%;
+    padding-left: 1%;
+    background-color: white;
+    margin-left: 3cm;
+    width: 1180px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.plch{
+    width: 1170px;
+    height: 20px;
+}
+.addVUE1 {
+    transform: translateX(-2px) translateY(5px);
+    color: white;
+    background-color: darkred;
+    border-color: darkred;
+    width: 7.5%;
+    border-radius: 2rem;
+    font-family: 'Courier New', Courier, monospace
+}
+.cardVUE{
+    transform:translateY(10px);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.listVUE{
+    transform:translateX(-40px);
+    list-style-type: none;
+}
